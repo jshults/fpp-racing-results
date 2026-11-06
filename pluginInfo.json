@@ -1,0 +1,46 @@
+{
+  "repoName": "fpp-racing-results",
+  "name": "Racing Results",
+  "author": "",
+  "description": "Gathers and displays the latest Formula 1, IndyCar and NASCAR results and standings in the FPP web UI.",
+  "homeURL": "",
+  "srcURL": "",
+  "bugURL": "",
+  "allowUpdates": 1,
+  "privacy": {
+    "summary": "Asks Jolpica F1 and ESPN's public score API for race results. Keeps nothing but your own settings and a local cache.",
+    "sends": [
+      {
+        "to": "api.jolpi.ca",
+        "what": "a request for the current Formula 1 season's latest results and standings",
+        "why": "to show Formula 1 results",
+        "alwaysOn": false
+      },
+      {
+        "to": "site.api.espn.com",
+        "what": "a request for the scoreboard of each IndyCar or NASCAR series you enable",
+        "why": "to show race results",
+        "alwaysOn": false
+      }
+    ],
+    "collects": [],
+    "sensors": [],
+    "remoteAccess": "none",
+    "systemChanges": [],
+    "closedCode": false,
+    "other": "none"
+  },
+  "versions": [
+    {
+      "minFPPVersion": "8.0",
+      "maxFPPVersion": "0",
+      "branch": "main",
+      "sha": "",
+      "dependencies": {
+        "plugins": [],
+        "packages": [],
+        "scripts": []
+      }
+    }
+  ]
+}
