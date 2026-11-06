@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "2001",
+      "date": "2026-11-01T19:00Z",
+      "name": "Sample 400",
+      "circuit": { "fullName": "Sample Motor Speedway" },
+      "status": { "type": { "state": "in", "completed": false } },
+      "competitions": [
+        {
+          "id": "2001-r",
+          "type": { "abbreviation": "Race" },
+          "status": { "type": { "state": "in" } },
+          "competitors": [
+            { "order": 1, "athlete": { "displayName": "Sam Leader" }, "vehicle": { "manufacturer": "Toyota" } },
+            { "order": 2, "athlete": { "displayName": "<script>alert(1)</script> Hacker" }, "vehicle": { "manufacturer": "Ford" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

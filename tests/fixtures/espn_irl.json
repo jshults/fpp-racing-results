@@ -1,0 +1,41 @@
+{
+  "leagues": [ { "id": "1", "abbreviation": "IndyCar", "slug": "irl" } ],
+  "events": [
+    {
+      "id": "1001",
+      "date": "2026-08-30T19:30Z",
+      "name": "Sample 500",
+      "shortName": "Sample 500",
+      "circuit": { "fullName": "Sample Speedway" },
+      "status": { "type": { "state": "post", "completed": true } },
+      "competitions": [
+        {
+          "id": "1001-p",
+          "type": { "id": "1", "abbreviation": "Practice" },
+          "status": { "type": { "state": "post" } },
+          "competitors": []
+        },
+        {
+          "id": "1001-r",
+          "type": { "id": "3", "abbreviation": "Race" },
+          "status": { "type": { "state": "post" } },
+          "competitors": [
+            { "order": 2, "winner": false, "athlete": { "displayName": "Riley Second" }, "vehicle": { "manufacturer": "Chevrolet" } },
+            { "order": 1, "winner": true,  "athlete": { "displayName": "Jordan First" },  "vehicle": { "manufacturer": "Honda" } },
+            { "order": 3, "winner": false, "athlete": { "displayName": "Morgan Third" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "date": "2027-03-14T18:00Z",
+      "name": "Season Opener Grand Prix",
+      "circuit": { "fullName": "Opening Street Circuit" },
+      "status": { "type": { "state": "pre", "completed": false } },
+      "competitions": [
+        { "id": "1002-r", "type": { "abbreviation": "Race" }, "status": { "type": { "state": "pre" } }, "competitors": [] }
+      ]
+    }
+  ]
+}

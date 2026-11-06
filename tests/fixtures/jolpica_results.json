@@ -1,0 +1,41 @@
+{
+  "MRData": {
+    "RaceTable": {
+      "season": "2026",
+      "round": "7",
+      "Races": [
+        {
+          "season": "2026",
+          "round": "7",
+          "raceName": "Sample Grand Prix",
+          "Circuit": {
+            "circuitName": "Sample Circuit",
+            "Location": { "locality": "Sampletown", "country": "Testland" }
+          },
+          "date": "2026-05-24",
+          "time": "13:00:00Z",
+          "Results": [
+            { "number": "1", "position": "1", "positionText": "1", "points": "25",
+              "Driver": { "givenName": "Alex", "familyName": "Example" },
+              "Constructor": { "name": "Sample Racing" },
+              "grid": "2", "laps": "57", "status": "Finished",
+              "Time": { "millis": "5530123", "time": "1:32:10.123" } },
+            { "number": "2", "position": "2", "positionText": "2", "points": "18",
+              "Driver": { "givenName": "Blake", "familyName": "Sample" },
+              "Constructor": { "name": "Fixture Motorsport" },
+              "grid": "1", "laps": "57", "status": "Finished",
+              "Time": { "millis": "5533579", "time": "+3.456" } },
+            { "number": "3", "position": "3", "positionText": "3", "points": "15",
+              "Driver": { "givenName": "Casey", "familyName": "Placeholder" },
+              "Constructor": { "name": "Sample Racing" },
+              "grid": "4", "laps": "56", "status": "+1 Lap" },
+            { "number": "4", "position": "4", "positionText": "R", "points": "0",
+              "Driver": { "givenName": "Drew", "familyName": "Fixture" },
+              "Constructor": { "name": "Fixture Motorsport" },
+              "grid": "3", "laps": "12", "status": "Engine" }
+          ]
+        }
+      ]
+    }
+  }
+}

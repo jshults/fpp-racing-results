@@ -1,0 +1,21 @@
+{
+  "MRData": {
+    "RaceTable": {
+      "season": "2026",
+      "round": "8",
+      "Races": [
+        {
+          "season": "2026",
+          "round": "8",
+          "raceName": "Another Sample Grand Prix",
+          "Circuit": {
+            "circuitName": "Second Circuit",
+            "Location": { "locality": "Testville", "country": "Testland" }
+          },
+          "date": "2026-06-07",
+          "time": "13:00:00Z"
+        }
+      ]
+    }
+  }
+}

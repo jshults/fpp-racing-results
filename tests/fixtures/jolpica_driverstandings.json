@@ -1,0 +1,21 @@
+{
+  "MRData": {
+    "StandingsTable": {
+      "season": "2026",
+      "StandingsLists": [
+        {
+          "season": "2026",
+          "round": "7",
+          "DriverStandings": [
+            { "position": "1", "positionText": "1", "points": "130", "wins": "3",
+              "Driver": { "givenName": "Alex", "familyName": "Example" },
+              "Constructors": [ { "name": "Sample Racing" } ] },
+            { "position": "2", "positionText": "2", "points": "112.5", "wins": "2",
+              "Driver": { "givenName": "Blake", "familyName": "Sample" },
+              "Constructors": [ { "name": "Fixture Motorsport" } ] }
+          ]
+        }
+      ]
+    }
+  }
+}
